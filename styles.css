@@ -8,8 +8,14 @@
 #Header1 a{
     margin-top: 20px;
     vertical-align: sub;
-    color: #747474;
+    color: #A6A194;
     font-size: large;
     font-weight: 600;
     text-decoration: underline;
+}
+#body{
+
+    background-image: url("./imgs/homepage/Bgimg.jpg");
+    background-color: turquoise;
+    object-fit: cover;
 }
