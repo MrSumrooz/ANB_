@@ -13,9 +13,31 @@
     font-weight: 600;
     text-decoration: underline;
 }
-#body{
-
+body{
     background-image: url("./imgs/homepage/Bgimg.jpg");
-    background-color: turquoise;
-    object-fit: cover;
+    object-fit: fill;
+    
+    
+}
+
+
+#navbarContent{
+    margin-left: 20%;
+}
+.navbar li a{
+    color: white;
+}
+
+.inputBar{
+    background-color: white;
+    border: 2px solid red;
+    justify-content: center;
+    width: 70%;
+    overflow: hidden;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    align-content: center;
+    padding: 20px;
 }
