@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <title>Hello, world!</title>
   </head>
   <body >
@@ -37,26 +38,30 @@
       </div>
     </nav>
     <div class="container">
-      <div class="row ">
-        <div class="col-8 inputBar d-flex justify-content-center">
-          <div>
+      <div class=" justify-content-center">
+        <div class=" inputBar d-flex">
+          <div class="d-flex flex-column">
             <label for="Location">Location</label>
             <input type="text" id="Location" placeholder="Where are you going?">
           </div>
-          <hr>
-          <div>
+          <div class="hrline"></div>
+          <div class="d-flex flex-column">
             <label for="Check-in">Check-in</label>
             <input type="text" id="Check-in" placeholder="Add dates">
           </div>
           <hr>
-          <div>
+          <div class="d-flex flex-column">
             <label for="check-out">Check-out</label>
             <input type="text" id="check-out" placeholder="Add dates">
           </div>
           <hr>
-          <div>
+          <div class="d-flex flex-column">
             <label for="Guests"> Guests</label>
             <input type="text" id="Guests" placeholder="Add Guests">
+          </div>
+          <div class="icon">
+            
+            <i class="bi bi-search"></i>
           </div>
           
         </div>
